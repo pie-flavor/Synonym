@@ -25,7 +25,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-@Plugin(id = "synonym", name = "Synonym", version = "1.0.0", authors = "pie_flavor", description = "A regex-based command alias plugin.")
+@Plugin(id = "synonym", name = "Synonym", version = "1.0.1", authors = "pie_flavor", description = "A regex-based command alias plugin.")
 public class Synonym {
     @Inject
     Game game;
