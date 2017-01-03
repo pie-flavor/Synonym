@@ -107,6 +107,7 @@ public class Synonym {
                             if (option.match == Config.MatchType.OPTION) {
                                 endvar = optmatcher.replaceAll(option.value);
                             } else {
+                                cmdmatcher.reset();
                                 endvar = cmdmatcher.replaceAll(option.value);
                             }
                             newcmd = newcmd.replace(varname, endvar);
